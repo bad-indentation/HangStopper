@@ -1,0 +1,10 @@
+CONTRIBUTING
+============
+HangStopper is a side project, and while I'll occasionally release some bug fixes or optimizations, I won't personally develop very many updates. For this reason, support from the open-source community is very much appreciated. There isn't much that needs to be fixed or changed right now, but if you find some way to make it better, I'd be happy to review your pull request!
+
+Guidelines for Contribution
+---------------------------
+While any help you are able to give is much appreciated, your contributions will be more likely to be merged into the main copy if you adhere to the following guidelines.
+
+1. **Adhere to standard Python convention as described in PEP 8.** I won't be super nitpicky about this, but I'd much prefer if you stuck to `snake_case` for variables and functions, `UPPER_CASE` for constants, and `PascalCase` for classes. This will make styling more consistent and will make it easier to reference things in the future. In short, if Pylint is yelling at you, consider changing your code to please it. :)
+2. **Don't change the main function and purpose of the software.** Adding new features and improving old ones is both acceptable and encouraged, but if you want to make changes to the fundamental structure or methods of the software, such as changing the way it filters out words from the word list, you may want to make your own derivative rather than trying to change the original copy.
